@@ -1,0 +1,926 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+// body
+//   width: 1580px
+
+.container_responsive
+  display: flex
+  flex-direction: column
+  align-items: center
+  max-width: 1580px
+  margin: 0px auto
+
+.Link
+  display: flex
+  font-family: 'Open Sans'
+  font-size: 14px
+  text-decoration: none
+  font-weight: bold
+  text-transform: uppercase
+  color: #E0E0E0
+
+button
+  border-radius: 5px
+  font-family: 'Open Sans'
+  cursor: pointer
+  &:focus
+    outline: none
+
+input
+  &:focus
+    outline: none
+
+@media ( max-width: 1500px )
+  .container_responsive
+    max-width: 1500px
+
+  .Meet_our_team-Box
+    flex-direction: column
+    align-items: center
+
+    .Meet_team_description
+      flex-direction: column
+      align-items: center
+      text-align: center
+      margin-right: 0px
+      position: none
+
+    .Our_team_img
+      margin-top: 10%
+
+    .Mark_Waugh-block
+      width: 100%
+      margin-top: 0px
+      align-items: center
+      margin-left: 0px
+      margin-right: 0px
+      .Mark_Waugh_description
+        text-align: center
+
+    .img_team
+      width: 65%
+
+@media ( max-width: 1300px )
+  .container_responsive
+    max-width: 1300px
+
+    .Header__Info
+      margin-top: 0
+      flex-direction: column
+      align-items: center
+    .Header__MenuBar
+      width: 52%
+
+    .Left__Side
+      height: 390px
+      text-align: center
+
+      .Header__Article
+        align-items: center
+
+      .Btn__Contact
+        margin-bottom: 0px
+
+    .Video
+      margin-bottom: 3%
+
+    .Alignment_Column_Box
+      display: flex
+      flex-direction: column
+      align-items: center
+      .A
+        align-items: center
+        text-align: center
+        margin-bottom: 5%
+
+    .Links_prod
+      width: 60%
+
+    .img_team
+      width: 75%
+    .Title_Mark_Waugh
+      margin-top: 7%
+
+    .input__name, .input__email
+      width: 280px
+
+    .Design_tips_block
+      width: 100%
+
+@media ( max-width: 1208px )
+  .Feedback__block
+    margin-bottom: 10%
+    .contact_info__box
+      margin-top: 13%
+
+@media ( max-width: 1018px )
+  .Feedback__block
+    display: flex
+    width: 90%
+    min-height: 1036px
+    margin: 5% 10% 0px 0px
+    text-align: center
+    justify-content: center
+    .Get_in_touch__box
+      display: flex
+      flex-direction: column
+      align-items: center
+      .Description__Get_in_touch
+        font-size: 14px
+    .Feedback__box
+      display: flex
+      flex-direction: column
+      align-items: center
+      margin-top: 3%
+      width: 100%
+      .Form__Feedback
+        display: flex
+        flex-direction: column
+        width: 70.5%
+    .contact_info__box
+      justify-content: center
+      margin-left: 0px
+      margin-top: 3%
+      width: 70%
+      height: 210px
+      .Title__Contact_info
+        margin-left: 0px
+      .address
+        margin-left: 0px
+
+// Header-Header-Header-Header-Header-Header-Header-Header-Header-Header-Header-Header-Header-Header-Header-Header-Header-Header-Header-Header-Header-Header-
+
+.Header
+  display: flex
+  flex-direction: column
+  align-items: center
+  width: 100%
+  background-color: #F6F2F2
+
+.Header__Menu
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  width: 83%
+  margin-top: 2%
+  background-color: #000000
+  opacity: .8
+  @media ( max-width: 482px )
+    width: 225px
+
+.Header__MenuBar
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  width: 40%
+  @media ( max-width: 1085px )
+    min-width: 60%
+  @media ( max-width: 780px )
+    min-width: 80%
+  @media ( max-width: 580px )
+    min-width: 93%
+
+.BoxLink
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 90px
+  height: 89px
+  &:hover
+    background: #FF2D2D
+
+.Header__Info
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+  margin-top: 6%
+  width: 85%
+
+.Left__Side
+  display: flex
+  flex-direction: column
+  justify-content: center
+  @media ( max-width: 485px )
+    max-height: 275px
+
+.Title__Article
+  font-family: 'Open Sans'
+  font-weight: 800
+  font-size: 376%
+  color: #000000
+  text-transform: uppercase
+  @media ( max-width: 680px )
+    font-size: 40px
+  @media ( max-width: 485px )
+    font-size: 30px
+
+.Header__Article
+  display: flex
+  flex-direction: column
+
+.Text__Article
+  font-family: 'Open Sans'
+  color: #000000
+  opacity: 0.7019607843137254
+  @media ( max-width: 485px )
+    font-size: 10px
+
+.Btn__Contact
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 37%
+  height: 58px
+  border: none
+  background-color: #FF2D2D
+  color: #FFFFFF
+  font-size: 86%
+  font-weight: 800
+  margin-top: 7%
+  margin-bottom: 10%
+  @media ( max-width: 420px )
+    height: 45px
+    width: 135px
+
+.Video
+  width: 650px
+  height: 350px
+  border: 0
+  @media ( max-width: 810px )
+    width: 400px
+    height: 250px
+  @media ( max-width: 485px )
+    width: 320px
+    height: 200px
+  @media ( max-width: 390px )
+    width: 250px
+
+// List of services-List of services--List of services--List of services--List of services--List of services--List of services--List of services--List of services
+
+.Services__Box
+  display: flex
+  justify-content: center
+  margin-top: 5%
+  width: 100%
+  height: auto
+  border-bottom: solid 2px #ECECEC
+  .Services__Column
+    display: flex
+    flex-direction: column
+
+.Alignment_Column_Box
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  width: 1230px
+
+.Alignment_Column_B_C
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  width: 635px
+  margin-bottom: 7%
+  @media ( max-width: 635px )
+    width: 285px
+    flex-direction: column
+    align-items: center
+
+.Services_Grid_box_management
+  display: grid
+
+.Services_Grid_box_branding
+  display: grid
+  margin-top: 20%
+
+.Services_Grid_box_Design
+  display: grid
+
+.Services_Grid_box_animation
+  display: grid
+  margin-top: 17%
+
+.Title__Article__Services
+  font-size: 266%
+  opacity: 0.8
+  font-family: 'Open Sans'
+  font-weight: bold
+  color: #000000
+  text-transform: uppercase
+  @media ( max-width: 550px )
+    font-size: 30px
+  @media ( max-width: 390px )
+    font-size: 20px
+
+.Article__of__Services-Main
+  font-family: 'Open Sans'
+  font-size: 16px
+  margin-top: 6%
+  color: #000000
+  @media ( max-width: 620px )
+    font-size: 12px
+  @media ( max-width: 550px )
+    font-size: 8px
+
+.Btn__Learn_More
+  width: 226px
+  height: 55px
+  margin-top: 9%
+  border-color: #FF0000
+  background: none
+  color: #FF2D2D
+  font-weight: bold
+  font-size: 18px
+  letter-spacing: 0.6px
+
+.Title_Article__of__Services
+  padding-top: 7%
+  font-family: 'Open Sans'
+  font-size: 24.7px
+  font-weight: 600
+  color: #000000
+  opacity: 0.7019607843137254
+
+.Article__of__Services
+  font-family: 'Open Sans'
+  font-size: 16px
+  opacity: 0.7019607843137254
+  color: #000000
+
+.Design
+  font-size: 26.7px
+  padding-top: 7%
+
+.bottom-couple
+  margin-top: 44px
+
+.Logo__Branding
+  font-family: 'Open Sans'
+  font-size: 24.55px
+  opacity: 0.7019607843137254
+  color: #000000
+  padding-top: 10%
+
+.Animation
+  padding-top: 11%
+
+.Management-Ar
+  padding-top: 3%
+  line-height: 1.75
+
+.Design-Ar
+  padding-top: 7px
+  letter-spacing: -0.28px
+  margin-left: 2px
+  line-height: 1.75
+
+.Branding-Ar
+  padding-top: 9px
+  letter-spacing: -0.28px
+  margin-left: 2px
+  line-height: 1.77
+
+.Animation-Ar
+  padding-top: 3%
+  line-height: 1.75
+
+// -Feature__Products-Feature__Products-Feature__Products-Feature__Products-Feature__Products-
+
+.Feature__products
+  display: flex
+  flex-direction: column
+  margin-top: 6%
+  width: 100%
+
+.Description__box
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.Description__Title
+  font-family: 'Open Sans'
+  font-weight: bold
+  font-size: 42.6px
+  text-transform: uppercase
+  color: #000000
+  opacity: 0.8
+  @media ( max-width: 460px )
+    font-size: 30px
+
+.Description
+  margin-top: 13px
+  text-align: center
+  font-family: 'Open Sans'
+  font-size: 16px
+  color: #000000
+  opacity: 0.7
+  line-height: 1.8
+  @media ( max-width: 560px )
+    font-size: 12px
+  @media ( max-width: 460px )
+    font-size: 8px
+
+.Rad_line__Feature_products
+  margin-top: 24px
+  width: 133px
+  height: 2px
+  background-color: #FF2D2D
+
+.Links_and_Img
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-top: 4%
+
+.Links_prod
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  width: 50%
+  @media ( max-width: 1460px )
+    width: 60%
+  @media ( max-width: 1230px )
+    min-width: 70%
+  @media ( max-width: 1080px )
+    min-width: 80%
+  @media ( max-width: 630px )
+    min-width: 90%
+
+.Product_Link
+  display: flex
+  flex-wrap: wrap
+  font-family: 'Open Sans'
+  font-weight: 600
+  font-size: 22.59px
+  text-transform: uppercase
+  cursor: pointer
+  &:hover
+    color: #FF2D2D
+  @media ( max-width: 890px )
+    font-size: 20px
+  @media ( max-width: 780px )
+    font-size: 18px
+  @media ( max-width: 710px )
+    font-size: 16px
+  @media ( max-width: 560px )
+    font-size: 12px
+  @media ( max-width: 560px )
+    font-size: 8px
+
+.img__box
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-around
+  width: 85%
+  height: 620px
+  margin-top: 60px
+  @media ( max-width: 1460px )
+    display: grid
+    margin: 10px auto 0 auto
+    height: auto
+    grid-template-columns: 1fr 1fr 0.5fr
+  @media ( max-width: 1080px )
+    display: grid
+    margin: 10px 10px 0 10px
+    height: auto
+    grid-template-columns: 1fr 0.5fr
+  @media ( max-width: 710px )
+    display: grid
+    margin: 10px 10px 0 10px
+    height: auto
+    grid-template-columns: 0.5fr
+
+// -Meet_our_team-Meet_our_team-Meet_our_team-Meet_our_team-Meet_our_team-Meet_our_team
+
+.Meet_our_team-Box
+  display: flex
+  flex-wrap: wrap
+  margin-top: 7%
+  width: 100%
+  justify-content: center
+
+.Meet_team_description
+  display: flex
+  flex-direction: column
+  position: relative
+  z-index: 12
+  margin-right: 8%
+
+.Title_deskription_team
+  font-family: 'Open Sans'
+  font-weight: bold
+  font-size: 43px
+  text-transform: uppercase
+  opacity: .8
+  color: #000000
+  @media ( max-width: 390px )
+    font-size: 30px
+
+.Description_team
+  margin-top: 3%
+  font-family: 'Open Sans'
+  font-size: 15.4px
+  color: #000000
+  opacity: 0.7
+  line-height: 1.85
+  @media ( max-width: 520px )
+    font-size: 12px
+  @media ( max-width: 390px )
+    font-size: 8px
+
+.Mini_Red_line
+  margin-top: 6%
+  width: 131px
+  height: 2px
+  background-color: #FF2D2D
+
+.Our_team_img
+  margin-top: 18%
+
+.Mark_Waugh-block
+  display: flex
+  flex-direction: column
+  margin-top: 18%
+  width: 51%
+  margin-left: -12%
+  margin-right: 4%
+
+.Title_Mark_Waugh
+  font-family: 'Open Sans'
+  font-weight: 600
+  font-size: 30.7px
+  text-transform: uppercase
+  color: #000000
+  opacity: .8
+  margin-top: 2%
+
+.Mark_Waugh_description
+  margin-top: 2%
+  font-family: 'Open Sans'
+  font-size: 15.5px
+  color: #000000
+  opacity: 0.7
+  line-height: 1.81
+  @media ( max-width: 660px )
+    font-size: 12px
+  @media ( max-width: 530px )
+    font-size: 10px
+  @media ( max-width: 440px )
+    font-size: 8px
+  @media ( max-width: 330px )
+    font-size: 7px
+    font-weight: 800
+
+.Links_Social_networks
+  display: flex
+  flex-wrap: wrap
+  margin-top: 4%
+  justify-content: space-between
+  width: 400px
+  @media ( max-width: 850px )
+    min-width: 310px
+  @media ( max-width: 440px )
+    max-width: 250px
+  @media ( max-width: 340px )
+    min-width: 220px
+
+.Link_social
+  font-family: 'Open Sans'
+  font-size: 20px
+  font-style: italic
+  text-decoration: none
+  color: #000000
+  opacity: .8
+  @media ( max-width: 340px )
+    font-size: 16px
+
+.img_team
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  margin-top: 6%
+  width: 105%
+  @media ( max-width: 1080px )
+    display: grid
+    max-width: 403px
+    margin: 10px 10px 0 10px
+    height: auto
+    grid-template-columns: 1fr 0.5fr
+  @media ( max-width: 540px )
+    display: flex
+    justify-content: center
+
+.sokina_box
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 38px
+  margin-top: -21.5%
+  width: 198px
+  opacity: .5
+  background-color: #000000
+  position: relative
+  z-index: 7
+
+.Sokina_jue
+  display: flex
+  font-family: 'Open Sans'
+  font-weight: 600
+  font-size: 18.5px
+  text-transform: uppercase
+  color: #FFFFFF
+  margin-left: 8px
+  margin-top: -4px
+
+// Design tips, tricks, and freebies. Delivered weekly.Design tips, tricks, and freebies. Delivered weekly.
+
+.Design_tips_block
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-top: 6%
+  width: 100%
+  height: 511px
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(https://www.mirf.ru/wp-content/uploads/2018/11/1467268283191357304.jpg) no-repeat
+  background-size: 100%
+  background-color: #fdfd93
+  @media ( max-width: 880px )
+    height: 365px
+  @media ( max-width: 610px )
+    height: 300px
+  @media ( max-width: 480px )
+    height: 250px
+
+.Title_Design_tips
+  margin-top: 8%
+  font-family: 'Open Sans'
+  font-weight: bold
+  font-size: 44.27px
+  color: #FFFFFF
+  opacity: .8
+  @media ( max-width: 1150px )
+    font-size: 30px
+  @media ( max-width: 815px )
+    font-size: 25px
+  @media ( max-width: 700px )
+    font-size: 20px
+  @media ( max-width: 515px )
+    font-size: 16px
+  @media ( max-width: 420px )
+    margin-top: 1%
+    width: 265px
+    text-align: center
+
+.description_Design_tips
+  margin-top: 1%
+  font-family: 'Open Sans'
+  font-size: 15.5px
+  color: #FFFFFF
+  opacity: 0.8
+  @media ( max-width: 700px )
+    font-size: 13px
+  @media ( max-width: 515px )
+    font-size: 10px
+    width: 255px
+    text-align: center
+
+.form_subscribe
+  display: flex
+  justify-content: center
+  width: 100%
+  @media ( max-width: 610px )
+    flex-direction: column
+    align-items: center
+
+.input_email
+  margin-top: 4%
+  width: 33%
+  border-radius: 5px
+  font-family: 'Open Sans'
+  font-size: 16px
+  text-align: start
+  padding-left: 35px
+  padding-top: 5px
+  @media ( max-width: 880px )
+    width: 365px
+  @media ( max-width: 610px )
+    height: 60px
+  @media ( max-width: 420px )
+    width: 280px
+
+.Btn-subscribe_email
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 13%
+  height: 79px
+  margin-top: 4%
+  margin-left: 1%
+  border: none
+  background-color: #FF2D2D
+  color: #FFFFFF
+  font-size: 18px
+  font-weight: 800
+  text-transform: uppercase
+  @media ( max-width: 880px )
+    width: 200px
+    font-size: 15px
+  @media ( max-width: 610px )
+    height: 60px
+    width: 365px
+  @media ( max-width: 420px )
+    width: 280px
+
+// Get_in_touchGet_in_touchGet_in_touchGet_in_touchGet_in_touchGet_in_touchGet_in_touchGet_in_touch
+
+.Feedback__block
+  display: flex
+  flex-wrap: wrap
+  width: 90%
+  height: 770px
+  margin-top: 5%
+  margin-left: 10%
+
+.Get_in_touch__box
+  display: flex
+  flex-direction: column
+
+.Title__Get_in_touch
+  font-family: 'Open Sans'
+  font-weight: bold
+  font-size: 42.7px
+  color: #000000
+  opacity: .8
+  text-transform: uppercase
+  @media ( max-width: 350px )
+    font-size: 35px
+
+.Description__Get_in_touch
+  margin-top: 4%
+  font-family: 'Open Sans'
+  font-size: 15.45px
+  color: #000000
+  opacity: 0.7
+  line-height: 1.85
+  @media ( max-width: 440px )
+    font-size: 14px
+  @media ( max-width: 350px )
+    font-size: 12px
+
+.Rad_line__Get_in_touch
+  margin-top: 6%
+  width: 133px
+  height: 2px
+  background-color: #FF2D2D
+
+.Feedback__box
+  display: flex
+  flex-wrap: wrap
+  margin-top: 3%
+  width: 100%
+
+.Form__Feedback
+  display: flex
+  flex-direction: column
+  width: 51.5%
+  @media ( max-width: 450px )
+    min-width: 286px
+
+.input_box
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  @media ( max-width: 450px )
+    flex-direction: column
+
+.input__name, .input__email
+  margin-top: 6%
+  width: 47%
+  height: 70px
+  border-radius: 10px
+  font-family: 'Open Sans'
+  text-align: start
+  color: #000
+  background: rgba(0, 0, 0, 0.1)
+  border-style: hidden
+
+.input__name
+  font-size: 18px
+  padding-left: 53px
+
+.input__email
+  font-size: 15.6px
+  padding-left: 48px
+  padding-top: 4px
+
+.comment
+  width: 100%
+  height: 48%
+  margin-top: 7%
+  border-radius: 10px
+  font-family: 'Open Sans'
+  font-size: 15.5px
+  padding-left: 53px
+  padding-top: 31px
+  color: #000
+  background: rgba(0, 0, 0, 0.1)
+  border-style: hidden
+  &:focus
+    outline: none
+  @media ( max-width: 450px )
+    width: 285px
+
+.Btn-Send_message
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 100%
+  height: 71px
+  margin-top: 5%
+  border: none
+  background-color: #FF2D2D
+  color: #FFFFFF
+  font-size: 18.5px
+  padding-left: 4px
+  padding-bottom: 2px
+  font-weight: 800
+  text-transform: uppercase
+  @media ( max-width: 450px )
+    width: 285px
+
+.contact_info__box
+  display: flex
+  flex-direction: column
+  justify-content: center
+  width: 41%
+  height: 457px
+  margin-left: 7%
+  margin-top: 3%
+  background-color: #2D2D2D
+  color: #FFFFFF
+  @media ( max-width: 455px )
+    width: 285px
+
+.Title__Contact_info
+  margin-left: 13%
+  font-family: 'Open Sans'
+  font-weight: bold
+  font-size: 18.5px
+  text-transform: uppercase
+  opacity: .7
+
+.address
+  display: flex
+  justify-content: start
+  flex-direction: column
+  margin-top: 4%
+  margin-left: 13%
+  font-family: 'Open Sans'
+  font-size: 15.4px
+  line-height: 1.85
+
+.email_contact
+  margin-top: 2%
+
+.phone_number
+  margin-top: 3%
+  font-size: 16px
+
+// -footer-footer-footer-footer-footer-footer-footer-footer-footer-footer-footer-footer-footer-footer-footer-footer-footer-footer-footer-footer-footer-footer-footer  
+
+.footer
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  width: 100%
+  height: 112px
+  margin-top: 6%
+  background: #313030
+  @media ( max-width: 791px )
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+.Copyright
+  display: flex
+  font-family: 'Open Sans'
+  font-size: 15.55px
+  color: #B8B8B8
+  margin-left: 10%
+  @media ( max-width: 791px )
+    margin-left: 0px
+  @media ( max-width: 380px )  
+    font-size: 14px  
+  @media ( max-width: 340px )  
+    font-size: 12px     
+
+.img_box_social
+  display: flex
+  margin-left: auto
+  margin-right: 13%
+  justify-content: space-between
+  width: 184px
+  @media ( max-width: 791px )
+    margin: 20px 0px 0px 0px
